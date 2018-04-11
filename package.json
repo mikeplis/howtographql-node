@@ -1,0 +1,18 @@
+{
+  "name": "howtographql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mike Plis <michael.plis01@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.8.4",
+    "nodemon": "^1.17.3",
+    "prisma-binding": "^1.5.17"
+  }
+}
